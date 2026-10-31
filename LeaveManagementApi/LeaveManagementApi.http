@@ -1,0 +1,6 @@
+@LeaveManagementApi_HostAddress = http://localhost:5282
+
+GET {{LeaveManagementApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

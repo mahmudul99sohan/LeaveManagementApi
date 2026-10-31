@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="E:/Dot_Net_Project/LeaveManagementApi/LeaveManagementApi.Application/LeaveManagementApi.Application.csproj" Id="023949e5-b133-413c-a7ee-115979fc791e" />
+  <Project Path="E:/Dot_Net_Project/LeaveManagementApi/LeaveManagementApi.Domain/LeaveManagementApi.Domain.csproj" Id="bfce497e-24c0-4a26-b364-f8ae08635352" />
+  <Project Path="E:/Dot_Net_Project/LeaveManagementApi/LeaveManagementApi.Infrastructure/LeaveManagementApi.Infrastructure.csproj" Id="5d2c9287-a4e5-4875-9d52-8bf2b588ed56" />
+  <Project Path="E:/Dot_Net_Project/LeaveManagementApi/LeaveManagementApi/LeaveManagementApi.csproj" />
+</Solution>

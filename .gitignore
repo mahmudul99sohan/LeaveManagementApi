@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build files
+bin/
+obj/
+
+# User secrets and local configuration
+appsettings.Development.json
+secrets.json
+
+# IDE
+.idea/
+
+# Logs
+*.log
