@@ -248,17 +248,42 @@ dotnet run --project LeaveManagementApi/LeaveManagementApi.csproj
 The API will start using the configured application launch settings.
 
 ## API Testing
+## API Testing Screenshots
 
-The endpoints have been tested using Postman.
+All API endpoints were tested using Postman. The following screenshots demonstrate successful CRUD operations and input validation.
 
-The tested operations include:
+### 1. Create Employee — 201 Created
 
-* Employee CRUD operations.
-* Leave Request CRUD operations.
-* Leave status updates.
-* Invalid leave date validation.
-* Invalid leave type validation.
-* Duplicate employee email validation.
+![Create Employee](docs/screenshots/01-Create-Employee.png)
+
+### 2. Email Validation Error — 400 Bad Request
+
+![Email Validation Error](docs/screenshots/02-Email-Validation-Error.png)
+
+### 3. Get Employees — 200 OK
+
+![Get Employees](docs/screenshots/03-Get-Employees.png)
+
+### 4. Update Employee — 204 No Content
+
+![Update Employee](docs/screenshots/04-Update-Employee.png)
+
+### 5. Create Leave Request — 201 Created
+
+![Create Leave Request](docs/screenshots/05-Create-Leave.png)
+
+### 6. Leave Request Date Validation — 400 Bad Request
+
+![Leave Request Date Validation](docs/screenshots/06-Leave-Requests-Date-Validation.png)
+
+### 7. Get Leave Requests — 200 OK
+
+![Get Leave Requests](docs/screenshots/07-Get-Leave-Requests.png)
+
+### 8. Update Leave Request Status — 204 No Content
+
+![Update Leave Request Status](docs/screenshots/08-Update-Leave-Status.png)
+
 
 ## Future Improvements
 
